@@ -1,0 +1,123 @@
+body {
+  background-color: cornflowerblue;
+  color: white;
+  margin: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  padding: 2vw;
+  height: 37vw;
+  margin-top: 2vw;
+  border-radius: 1vw;
+  border: 0.2vw solid black;
+  box-shadow: 0.1vw 0.5vw 1vw black;
+}
+
+h1 {
+  margin: 0.5vw;
+  text-align: center;
+  font-size: 5vw;
+  font-family: fantasy;
+  font-weight: lighter;
+  text-shadow: 0.1vw 0.5vw 1vw black;
+}
+
+.bem-vindo {
+  text-align: center;
+  margin: 1vw;
+  font-weight: bold;
+  font-size: 2vw;
+  text-shadow: 0.1vw 0.4vw 1vw black;
+}
+
+form label {
+  font-size: 2vw;
+  font-weight: bold;
+  text-shadow: 0.1vw 0.3vw 0.3vw black;
+}
+
+#login {
+  border-radius: 0.3vw;
+  padding: 0.7vw;
+  width: 25vw;
+  margin: 1.5vw 0;
+  background: #070b11e8;
+  color: white;
+  font-size: 1.5vw;
+  border: solid 0.1vw white;
+  box-shadow: 0.1vw 0.5vw 0.4vw black;
+  /*box-shadow: 0.1vw 0.4vw 1vw;
+   background: transparent; */
+}
+
+.inform-senha {
+  font-size: 1.5vw;
+  margin: 0.5vw 0;
+  padding-left: 6.5vw;
+  text-shadow: 0.1vw 0.1vw 0.1vw black;
+}
+
+#senha {
+  border-radius:0.3vw; 
+  padding: 0.7vw;
+  width: 20vw;
+  background: #070b11e8;
+  color: white;
+  font-size: 1.5vw;
+  border: solid 0.1vw white;
+  box-shadow: 0.1vw 0.5vw 0.4vw black;
+  /*box-shadow: 0.1vw 0.4vw 1vw;*/
+}
+
+ul {
+	list-style: none;
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+  padding: 0%;
+}
+
+li :hover {
+  color: #5c5c5c ;
+}
+
+a {
+  color: white;
+  font-size: 1.8vw;
+  text-shadow: 0.1vw 0.1vw 0.1vw black;
+}
+
+/*form {
+  display: flex;
+  width: 50vw;
+  flex-direction: column;
+  justify-content: center;
+}*/
+
+.botao {
+  padding: 1.6vw;
+  width: 17vw;
+  color: white;
+  background: #000000ed;
+  border: white solid 0.1vw;
+  border-radius: 1vw;
+  font-size: 2vw;
+  box-shadow: 0.6vw 0.6vw 0.6vw black;
+}
+
+.class-botao {
+  display: flex;
+  justify-content: center;
+}
+
+.class-botao :hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+  font-weight: bold;
+  border: black solid 0.2vw;
+}
+
